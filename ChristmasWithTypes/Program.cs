@@ -10,13 +10,13 @@ namespace ChristmasWithTypes
 
             var xmasDay = Christmas.Day.Thursday;
 
-            //TODO set Santa's name to Kris Kringle
+            //Done set Santa's name to Kris Kringle
             xmas.Santa = null;
 
-            //TODO Insert 3 presents you would like for xmas.  They must be strings
-            xmas.Presents =  new string[3]{ }; 
+            //Done Insert 3 presents you would like for xmas.  They must be strings
+            xmas.Presents =  new string[3]{"car", "boat", "plane" }; 
 
-            //TODO Set the TreeHeight to 10
+            //Done Set the TreeHeight to 10
             xmas.TreeHeight = null;
 
             Console.WriteLine($"This year christmas falls on {xmasDay} \n");
